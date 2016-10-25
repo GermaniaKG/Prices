@@ -50,7 +50,7 @@ Develop using `develop` branch, using [Git Flow](https://github.com/nvie/gitflow
 **Currently, no tests are specified.**
 
 ```bash
-$ git clone git@github.com:GermaniaKG/Downloads.git germania-prices
+$ git clone git@github.com:GermaniaKG/Prices.git germania-prices
 $ cd germania-prices
 $ cp phpunit.xml.dist phpunit.xml
 $ phpunit
