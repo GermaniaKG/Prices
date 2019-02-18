@@ -1,10 +1,10 @@
-#Germania\Prices
+# Germania\Prices
 
 **This package was destilled from legacy code!**   
 You better do not want it to use this in production.
 
 
-##Installation
+## Installation
 
 ```bash
 $ composer require germania-kg/prices
@@ -13,7 +13,7 @@ $ composer require germania-kg/prices
 **MySQL:** This package requires a MySQL table *germania_prices* which you can install using `germania_prices.sql` in `sql/` directory.
 
 
-##Usage
+## Usage
 
 *PdoPrices* is a Callable for retrieving prices for any given article ID. It implements the [container-interop](https://github.com/container-interop/container-interop) (upcoming [PSR 11](https://github.com/php-fig/fig-standards/blob/master/proposed/container.md) standard). 
 
@@ -44,7 +44,7 @@ $prices = $prices_factory( 42 );
 ```
 
 
-##Development and Testing
+## Development and Testing
 
 Develop using `develop` branch, using [Git Flow](https://github.com/nvie/gitflow).   
 **Currently, no tests are specified.**
